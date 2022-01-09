@@ -50,7 +50,7 @@
 
 <body>
 
- <header>
+    <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark static">
             <div class="container-fluid">
                 <a href="index.html"><img src="./logomaiten - copia.html" alt="logo" height="40" width="45"
@@ -124,100 +124,74 @@
             <h2 data-aos="fade-up" data-aos-delay="1200">Imagenes del colegio</h2>
         </div>
     </article>
-    <div class="container1" style="margin-top: 30px;">
-        <div class="container" data-aos="fade-up" data-aos-delay="1200">
-            <ul class="slider">
-                <div class="row">
-                    <li id="slide 1">
-                        <img src="./images/118139213_1989074258058725_5257636986138745472_n.jpg" height="200" width="200" >
-                    </li>
-                    <li id="slide2">
-                        <img src="./images/26240005_1515117378787751_8062734570757036560_o.jpg">
-                    </li>
-                    <li id="slide3">
-                        <img src="./images/118194512_1989074431392041_8021816741100285115_n.jpg">
-                    </li>
-                    <li id="slide4">
-                        <img src="./images/118295139_1989074031392081_1369664441727786330_n.jpg">
-                    </li>
-                    <li id="slide5">
-                        <img src="./images/118041570_1988997398066411_8745414809690348165_n.jpg">
-                    </li>
-                    <li id="slide6">
-                        <img src="images/120053024_2011477182485099_4553942264175534230_n.jpg">
-                    </li>
-            </ul>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/26197773_1515117328787756_5805245867717328415_o.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/118139213_1989074258058725_5257636986138745472_n.jpg" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
         </div>
-        <hr>
-        <div>
-            <ul class="menu2">
-                <li class="menu2">
-                    <a href="#slide1">1</a>
-                </li>
-                <li class="menu2">
-                    <a href="#slide2">2</a>
-                </li>
-                <li class="menu2">
-                    <a href="#slide3">3</a>
-                </li>
-                <li class="menu2">
-                    <a href="#slide4">4</a>
-                </li>
-                <li class="menu2">
-                    <a href="#slide5">5</a>
-                </li>
-                <li class="menu2">
-                    <a href="#slide6">6</a>
-                </li>
-            </ul>
-        </div>
-        </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading"> A dónde nos encontramos. <span class="text-muted"></span></h2>
-                <p class="lead"> Visitá más deslizando en el mapa.</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.915774798462!2d-58.48701208549136!3d-34.78289557450612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd1ea6c88d7e5%3A0x2bdfe3803c828d20!2sMi%20Peque%C3%B1a%20Estrella!5e0!3m2!1ses-419!2sar!4v1641207692023!5m2!1ses-419!2sar"
-                    width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
-                </iframe>
-    
-            </div>
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading"> A dónde nos encontramos. <span class="text-muted"></span></h2>
+            <p class="lead"> Visitá más deslizando en el mapa.</p>
         </div>
-   
+        <div class="col-md-5 order-md-1">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.915774798462!2d-58.48701208549136!3d-34.78289557450612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd1ea6c88d7e5%3A0x2bdfe3803c828d20!2sMi%20Peque%C3%B1a%20Estrella!5e0!3m2!1ses-419!2sar!4v1641207692023!5m2!1ses-419!2sar"
+                width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            </iframe>
+
+        </div>
+    </div>
+
     </main>
- 
-</div>
-</div>
-</div>
-<footer>
-    <div class="container1" style="margin: top 30px;">
-        <h3>Contactate con nosotros</h3>
-        <div class="row">
-            <ul>
-                <li><a href="https://www.facebook.com/jardinmipequenaestrella" target="_blank"><img
-                            src="./images/facebook-icone-noir.png" alt="facebook logo" height="40" width="40"></a>
-                </li>
-                </a>
 
-                <li>
-                    <a href="https://api.whatsapp.com/send?phone=+5491124763428" target="_blank"><img
-                            src="./images/whatsapp-negro-3.png" alt"WhatsApp-logo" height="40" width="40"></a>
-                </li>
+    </div>
+    </div>
+    </div>
+    <footer>
+        <div class="container1" style="margin: top 30px;">
+            <h3>Contactate con nosotros</h3>
+            <div class="row">
+                <ul>
+                    <li><a href="https://www.facebook.com/jardinmipequenaestrella" target="_blank"><img
+                                src="./images/facebook-icone-noir.png" alt="facebook logo" height="40" width="40"></a>
+                    </li>
+                    </a>
 
-            </ul>
-</footer>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=+5491124763428" target="_blank"><img
+                                src="./images/whatsapp-negro-3.png" alt"WhatsApp-logo" height="40" width="40"></a>
+                    </li>
 
-<script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+                </ul>
+    </footer>
+
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 
